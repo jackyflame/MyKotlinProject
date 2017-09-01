@@ -9,7 +9,7 @@ android {
     buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.jf.mykotlinproject"
-        minSdkVersion 19
+        minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -23,9 +23,9 @@ android {
     }
     sourceSets{
         //main.java.srcDirs += 'src/main/kotlin'
-        main.java.srcDirs = []
-        main.kotlin.srcDirs = ['src/main/kotlin','src/main/java']
-        main.resources.srcDirs = ['src/main/resources']
+        //main.java.srcDirs = []
+        //main.kotlin.srcDirs = ['src/main/kotlin','src/main/java']
+        //main.resources.srcDirs = ['src/main/resources']
     }
 }
 
